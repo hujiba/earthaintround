@@ -31,3 +31,29 @@ p {
   text-align: center;
   color: hotpink;
 }
+
+@font-face {
+  font-family: 'PAPYRUS';
+  src: 
+	url('PAPYRUS.TTF') 
+	format('truetype');
+  src: 
+	local('Papyrus'),
+	local('PAPYRUS'),
+	url('PAPYRUS.TTF') 
+	format('truetype');
+}
+
+h1 {
+  text-align: center;
+  font-family: PAPYRUS;
+  font-size: 50px;
+  color: blueviolet;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: mediumblue
+}
