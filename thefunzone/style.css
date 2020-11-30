@@ -36,7 +36,7 @@ p {
   font-family: 'PAPYRUS' !important;
   src: 
 	url('https://earthaintround.tk/thefunzone/PAPYRUS.TTF')  
-	format('truetype');
+	format('truetype')!important;
   src: 
 	local('Papyrus'),
 	local('PAPYRUS'),
