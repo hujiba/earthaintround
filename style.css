@@ -28,3 +28,9 @@ li a:hover {
 p {
   text-align: center
 }
+
+.faketext {
+  color: blue;
+  text-decoration: underline;
+  text-align: center
+}
