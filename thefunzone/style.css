@@ -35,7 +35,7 @@ p {
 @font-face {
   font-family: 'PAPYRUS' !important;
   src: 
-	url('https://earthaintround.tk/thefunzone/PAPYRUS.TTF')  
+	url('https://earthaintround.tk/thefunzone/PAPYRUS.TTF') !important 
 	format('truetype')!important;
   src: 
 	local('Papyrus'),
