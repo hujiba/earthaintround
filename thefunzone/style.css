@@ -33,7 +33,7 @@ p {
 }
 
 @font-face {
-  font-family: 'PAPYRUS';
+  font-family: 'PAPYRUS' !important;
   src: 
 	url('PAPYRUS.TTF') 
 	format('truetype');
@@ -46,7 +46,7 @@ p {
 
 h1 {
   text-align: center;
-  font-family: PAPYRUS;
+  font-family: PAPYRUS !important;
   font-size: 50px;
   color: blueviolet;
   font-weight: bold;
