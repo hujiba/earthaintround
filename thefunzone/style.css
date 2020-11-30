@@ -1,12 +1,14 @@
 body, html {
-    cursor: url(/icon/favicon-16x16.png), pointer;
+  cursor: url(/../icon/favicon-16x16.png), pointer;
+  font-family: Comic Sans MS;
+  background-image: repeating-linear-gradient(red, lime 20%);
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: lightgray;
+  background-color: cyan;
 }
 
 li {
@@ -16,21 +18,16 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: yellow;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: white;
 }
 p {
-  text-align: center
-}
-
-.faketext {
-  color: blue;
-  text-decoration: underline;
-  text-align: center
+  text-align: center;
+  color: hotpink;
 }
