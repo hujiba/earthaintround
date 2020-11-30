@@ -1,2 +1,2 @@
 # earthaintround
-it not
+earthaintround.tk
