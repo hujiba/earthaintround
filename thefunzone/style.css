@@ -32,18 +32,6 @@ p {
   color: hotpink;
 }
 
-@font-face {
-  font-family: 'PAPYRUS' !important;
-  src: 
-	url('PAPYRUS.TTF') 
-	format('truetype');
-  src: 
-	local('Papyrus'),
-	local('PAPYRUS'),
-	url('PAPYRUS.TTF') 
-	format('truetype');
-}
-
 h1 {
   text-align: center;
   font-family: Comic Sans MS;
