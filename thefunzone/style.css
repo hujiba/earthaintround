@@ -45,3 +45,10 @@ h2 {
   font-size: 30px;
   color: mediumblue
 }
+.hcb-shadow-m {
+  background-color: blue;
+}
+textarea, input {
+  font-family: Comic Sans MS;
+  background-color: yellow
+}
