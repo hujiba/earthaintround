@@ -52,3 +52,7 @@ textarea, input {
   font-family: Comic Sans MS;
   background-color: yellow
 }
+
+.points {
+  text-align: right
+}

@@ -39,16 +39,17 @@
   <body onmousemove="buttonClick()">
       <script src="script.js"></script>
 
-    <script>
+<script>
+    var i = 0
     function buttonClick() {
-        document.getElementById('inc').value = event.clientX + ", " + event.clientY;
-        good.play()
+    document.getElementById("output").innerHTML = event.clientX + ", " + event.clientY;
     }
   </script>
   <div class="points">
   <b>points.</b>
-  <input type="text" id="inc" value="0"></input>
-  </div>
+  <span id="output">0</span>
+  <br>
+
     <script src="script.js"></script>
     
     <a href=https://twitter.com/eaarthaintround target="_blank">twitter.</a>

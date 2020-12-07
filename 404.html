@@ -48,12 +48,15 @@
     <script>
       var good = document.getElementById("good"); 
       var bad = document.getElementById("bad"); 
-    var i = 0;
+    var i = 0
     function buttonClick() {
-        document.getElementById('inc').value = --i;
-        good.play();
+    document.getElementById("output").innerHTML = i-- - 1;
+    good.play()
     }
   </script>
+  <div class="points">
+  <b>points.</b>
+  <span id="output">0</span>
   <div class="points">
   <b>points.</b>
   <input type="text" id="inc" value="0"></input>
