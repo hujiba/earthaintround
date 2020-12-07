@@ -31,7 +31,17 @@
     <li><a href="contact.html">Contact</a></li>
     <li><a href="comments.html">Comments</a></li>
   </ul> 
-  <body>
+  <body onmouseover="buttonClick()">
+    <script>
+    var i = 0;
+    function buttonClick() {
+        document.getElementById('inc').value = ++i;
+    }
+  </script>
+  <div class="points">
+  <b>points.</b>
+  <input type="text" id="inc" value="0"></input>
+  </div>
     404 not found.
   <img src="/images/stunning.png" alt="flat" width="500"><br>
   </body>

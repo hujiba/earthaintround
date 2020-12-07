@@ -34,3 +34,7 @@ p {
   text-decoration: underline;
   text-align: center
 }
+
+.points {
+  text-align: right
+}
