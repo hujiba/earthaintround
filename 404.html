@@ -31,17 +31,34 @@
     <li><a href="contact.html">Contact</a></li>
     <li><a href="comments.html">Comments</a></li>
   </ul> 
-  <body onmouseover="buttonClick()">
+  <body onmousemove="buttonClick()"
+  
+  <audio id="bad">
+
+  <source src="bad.mp3" type="audio/mpeg">
+
+  </audio>
+
+  <audio id="good">
+
+  <source src="bad.mp3" type="audio/mpeg">
+
+  </audio>
+<script src="script.js"></script>
     <script>
+      var good = document.getElementById("good"); 
+      var bad = document.getElementById("bad"); 
     var i = 0;
     function buttonClick() {
-        document.getElementById('inc').value = ++i;
+        document.getElementById('inc').value = --i;
+        good.play();
     }
   </script>
   <div class="points">
   <b>points.</b>
   <input type="text" id="inc" value="0"></input>
-  </div>
+  </div>>
+    
     404 not found.
   <img src="/images/stunning.png" alt="flat" width="500"><br>
   </body>

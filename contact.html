@@ -36,7 +36,19 @@
     <li><a href="contact.html">Contact</a></li>
     <li><a href="comments.html">Comments</a></li>
   </ul> 
-  <body>
+  <body onmousemove="buttonClick()">
+      <script src="script.js"></script>
+
+    <script>
+    function buttonClick() {
+        document.getElementById('inc').value = event.clientX + ", " + event.clientY;
+        good.play()
+    }
+  </script>
+  <div class="points">
+  <b>points.</b>
+  <input type="text" id="inc" value="0"></input>
+  </div>
     <script src="script.js"></script>
     
     <a href=https://twitter.com/eaarthaintround target="_blank">twitter.</a>
