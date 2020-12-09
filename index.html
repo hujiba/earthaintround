@@ -58,6 +58,9 @@
     function buttonClick() {
     document.getElementById("output").innerHTML = i++ + 1;
     good.play()
+    if ((document.getElementById("output").innerHTML % 100) == 0) {
+      alert("what.")
+    }
     }
   </script>
   <div class="points">
