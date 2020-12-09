@@ -22,11 +22,12 @@
     gtag('config', 'G-XYYWLS3E56');
     </script>
     <meta property="og:type" content="earth ain't round.">
-    <meta property="og:title" content="earth ain't round. - games" />
+    <meta property="og:title" content="earth ain't round. - redeem points." />
     <meta property="og:description" content="it ain't." />
     <meta property="og:url" content="earthaintround.tk" />
     <meta property="og:image" content="https://earthaintround.tk/icon/apple-touch-icon.png" />
   </head>
+  <script src="script.js"></script>
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
@@ -38,40 +39,41 @@
     <li><a href="redeempoints.html">Redeem Points</a></li>
     <li><a href="faq.html">FAQ</a></li>
   </ul> 
-  <body onwheel="buttonClick()">
 
-<audio id="bad">
+  <body>
+  <audio id="no">
 
-  <source src="bad.mp3" type="audio/mpeg">
-
-  </audio>
-
-  <audio id="good">
-
-  <source src="good.mp3" type="audio/mpeg">
+  <source src="no.mp3" type="audio/mpeg">
 
   </audio>
-
-    <script src="script.js"></script>
-    <script>
-    var i = 0
-    function buttonClick() {
-    document.getElementById("output").innerHTML = i++ + 1;
-    good.play()
-    }
-  </script>
+  <script src="script.js"></script>
+  <script>
+  function points() {
+  no.play()
+  alert("you do not have enough points");
+  }
+</script>
   <div class="points">
   <b>points.</b>
   <span id="output">0</span>
   </div>
-    <iframe src="https://scratch.mit.edu/projects/456416049/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-  fun.
-  <iframe src="https://scratch.mit.edu/projects/410856931/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-  <iframe src="https://store.steampowered.com/widget/1397620/?t=fun." frameborder="0" width="646" height="190"></iframe>
-  <iframe src="https://scratch.mit.edu/projects/282315617/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-  <img src="/images/flearth cat.png" alt="flat" width="500"><br>
-  <iframe src="https://scratch.mit.edu/projects/299611894/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-  <iframe src="https://scratch.mit.edu/projects/284936717/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
+    <button onclick="points()">
+    <h1>10 points - sticker.</h1>
+    <img src="/images/sticker.png" width=200>
+    <br>
+    buy
+    </button>
+    <button onclick="points()">
+    <h1>100 points - t shirt.</h1>
+    <img src="/images/shirt.png" width=200>
+    <br>
+    buy
+    </button>
+    <button onclick="points()">
+    <h1>1000000 points - moon.</h1>
+    <img src="/images/moon.png" width=200>
+    <br>
+    buy
+    </button>
   </body>
 </html>
